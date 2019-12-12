@@ -1,0 +1,19 @@
+.navbar {
+  background-color:#69e669;
+  display: flex;
+  .nav-flex {
+    display: flex;
+  }
+  .list {
+    li {
+      margin-left: 10px;
+      list-style: none;
+      a{
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+      }
+    }
+  }
+
+}
