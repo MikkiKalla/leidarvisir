@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="395px" height="395px" viewBox="0 0 395 395" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="tab-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <circle id="Oval-3" fill="#333B52" cx="197.5" cy="197.5" r="197.5"></circle>
+            <g id="Group-2" transform="translate(101.258883, 65.164975)" fill="#FFFFFF">
+                <polygon id="Rectangle-3" points="75.858871 0.78642208 108.510081 0.78642208 108.510081 29.7356834 75.858871 61.3409222"></polygon>
+                <path d="M75.6082166,121.740846 L33.3302272,164.018836 L33.3302272,262.664975 L1,250.418963 L1,150.635442 L0.995887405,150.63133 L150.833567,0.79365066 L195.986742,1.13390762 L173.694489,23.6545735 L107.938444,89.4106192 L107.938444,242.315448 L75.6082166,262.664975 L75.6082166,121.740846 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
