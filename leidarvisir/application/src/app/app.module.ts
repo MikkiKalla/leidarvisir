@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,8 @@ import { InterestTestComponent } from './interest-test/interest-test.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { SavedCoursesComponent } from './saved-courses/saved-courses.component';
 import { CourseCardComponent } from './course-card/course-card.component';
+import {  HttpClientModule } from '@angular/common/http';
+import { CourseOverviewComponent } from './course-overview/course-overview.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { CourseCardComponent } from './course-card/course-card.component';
     InterestTestComponent,
     UserProfileComponent,
     SavedCoursesComponent,
-    CourseCardComponent
+    CourseCardComponent,
+    CourseOverviewComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,57 @@
-<p>
-  course-card works!
-</p>
+<!-- NOTE:: WRAP CARD IN ROUTER TAG -->
+<div *ngFor="let course of courses">
+  <a href="#" style="text-decoration: none; color: #000;">
+    <div id="card">
+      <div class="grid-x top-info show-grid">
+        <div class="cell large-8 medium-8 small-8">
+          <p id="study">{{course.field_name}}</p>
+          <div class="grid-x show-grid">
+            <div class="cell medium-3 small-3">
+              <div id="colored-line"></div>
+            </div>
+            <div class="cell medium-9 small-9">
+              <p id="subject-area">Psychology</p> 
+            </div>
+          </div>
+        </div>
+        <div class="icon-container cell medium-4 small-4">
+          <div class="card-icon">
+              <div class="square-icon"></div>
+              <div class="square-icon"></div>
+              <div class="square-icon"></div>
+              <div class="square-icon"></div>
+          </div>
+          <div class="icon-overlay"  style="display: none;">
+            <div class="icon-container">
+              <div class="save-button">
+                <i class="icon save-icon"></i>
+                <p>Save for later</p>
+              </div>
+              <div class="compare-button">
+                <i class="icon compare-icon"></i>
+                <p>Compare course</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-x short-info show-grid">
+        <div class="cell medium-7 small-7">
+          <p id="graduate">Post-Graduate</p>
+          <p id="credits">120 ESTC</p>
+          <p id="degree">Bachelors</p>
+        </div>
+        <div class="cell medium-5 small-5">
+          <div class="short-info-right">
+            <p id="school">University of Reykjavik</p>
+            <p id="program-lengthq">Length: <span>3 years</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="background-container">
+        <img id="school-logo-background" src="LOGO-SOURCE-GOES-HERE" alt="school logo" >
+      </div>
+    </div>
+  </a>
+</div>
+

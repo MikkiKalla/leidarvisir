@@ -1,3 +1,26 @@
-<p>
-  login works!
-</p>
+
+<div class="centered">
+  <div class="login-box ">
+
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+        <div class="small-12 cell">
+          <label for="textUsername">Username or email
+            <input #usernameInput type="text" placeholder="Enter username or email">
+          </label>
+        </div>
+        <div class="small-12 cell">
+          <label>Password
+            <input #passwordInput type="password" aria-describedby="passwordHelpText" placeholder="password">
+          </label>
+        </div>
+        </div>
+      </div>
+      <button class="button large" (click)="onLoginButtonClick(usernameInput.value, passwordInput.value)">Login</button>
+
+  </div>
+</div>
+<!-- <label>Password
+<input type="password" aria-describedby="passwordHelpText">
+</label>
+<p class="help-text" id="passwordHelpText">Your password must have at least 10 characters, a number, and an Emoji.</p> -->

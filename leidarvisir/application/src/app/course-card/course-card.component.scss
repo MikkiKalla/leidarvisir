@@ -1,0 +1,82 @@
+#card {
+  height: 196px;
+  width: 350px;
+  overflow: hidden;
+  padding: 0px 10px;
+  margin: 20px 20px;
+  background-color: rgba(247, 247, 247, 0.9);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  #card p {
+    margin: 0 0 0px; }
+  #card .top-info {
+    height: 11vh;
+    margin: 0 0 0px;
+    padding-top: 7px; 
+  }
+    #card .top-info #study {
+      font-size: 20px;
+      font-weight: bold; 
+    }
+    #card .top-info #colored-line {
+      margin-top: 12px;
+      height: 2px;
+      width: 46px;
+      background-color: rgb(4, 197, 155); 
+    }
+    #card .top-info #subject_area {
+      font-size: 16px;
+      color: #4A4A6A; }
+    #card .top-info .card-icon {
+      float: right; }
+      #card .top-info .card-icon #comparison {
+        z-index: 100; }
+      #card .top-info .card-icon #comparison:active {
+        color: green; }
+  #card .short-info {
+    margin: 0 0 0px;
+    font-size: 14px;
+    padding: 20, 10, 10, 10px; }
+    #card .short-info .short-info-right {
+      text-align: right; }
+  #card #school-logo-background {
+    float: right;
+    height: 242px;
+    position: relative;
+    bottom: 120px;
+    left: 60px;
+    z-index: -100; }
+
+#card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  cursor: pointer; }
+
+  #school-logo-background {
+    float: right;
+    height: 242px;
+    position: relative;
+    bottom: 120px;
+    left: 60px;
+    z-index: -100; }
+  .icon-container {
+    position: relative;
+    .card-icon{
+      grid-template-columns: 5px 12px;
+      grid-template-rows: 1px auto;
+      grid-column-gap: 10px;
+      grid-row-gap: 14px;
+      display: grid;
+      position: absolute;
+      z-index: 100;
+      right: 0;
+      &:hover {
+        background-color: aqua;
+      }
+      .square-icon {
+        height: 12px;
+        width: 12px;
+        border: 2px #1720A7 solid;
+      }
+    }
+  }
+
