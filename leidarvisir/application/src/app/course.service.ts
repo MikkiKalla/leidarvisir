@@ -16,7 +16,7 @@ export class CourseService {
     return this.webReqService.get('courses');
   }
 
-  getBookmarkedCourses (userId, courseId) {
-    return
-  }
+  // getBookmarkedCourses (userId, courseId) {
+  //   return
+  // }
 }
